@@ -12,6 +12,6 @@ class Fogo{
     display(){
         var poss = this.body.position
         fogo = createSprite(200,200,10,10);
-        this.body = fogo.addAnimation("parado",this.animation)
+        fogo.addAnimation("parado",this.animation)
     }
 } 
